@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8D453F7-1DA3-4B9B-9B97-69EE2AC07D2F}" SchemaVersion="119">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{E8D453F7-1DA3-4B9B-9B97-69EE2AC07D2F}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Ambience" ID="{27533559-57C0-4684-917A-5C8A1A19F288}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Ambience_Begin" ID="{8D592177-A45E-42AB-AF88-F121E699243C}" WorkUnitID="{FB6D43BA-A095-4ED4-B67B-D55603BB32B6}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Ambience_End" ID="{E9137075-429A-4E47-AF42-B7DD58C35F22}" WorkUnitID="{FB6D43BA-A095-4ED4-B67B-D55603BB32B6}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{05FF0A95-DA7E-4E50-AD5C-85E0FA1AF789}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

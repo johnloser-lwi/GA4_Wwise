@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FB6D43BA-A095-4ED4-B67B-D55603BB32B6}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Ambince" ID="{FB6D43BA-A095-4ED4-B67B-D55603BB32B6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambience_Begin" ID="{8D592177-A45E-42AB-AF88-F121E699243C}">
+					<ChildrenList>
+						<Action Name="" ID="{127C41EF-C74D-4014-A3EB-098E4FCD10FE}" ShortID="234449169">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{AA0FD796-D5E7-45E1-AE28-ED91884A4C81}" WorkUnitID="{0CF16F48-FFDE-4AF3-BEF3-6E70C85EF3C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambience_End" ID="{E9137075-429A-4E47-AF42-B7DD58C35F22}">
+					<ChildrenList>
+						<Action Name="" ID="{4E7657C3-5168-4CB1-8E6B-78EAC0EE93E1}" ShortID="1053438513">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{AA0FD796-D5E7-45E1-AE28-ED91884A4C81}" WorkUnitID="{0CF16F48-FFDE-4AF3-BEF3-6E70C85EF3C3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

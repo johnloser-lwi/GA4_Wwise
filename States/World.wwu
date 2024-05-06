@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{28E399FD-A73E-4A90-833F-0734D000B77F}" SchemaVersion="119">
+	<States>
+		<WorkUnit Name="World" ID="{28E399FD-A73E-4A90-833F-0734D000B77F}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Location" ID="{ED0166BF-1276-4AEF-A1AB-FF43F67C1CEE}">
+					<ChildrenList>
+						<State Name="None" ID="{05FF0A95-DA7E-4E50-AD5C-85E0FA1AF789}"/>
+						<State Name="Forest" ID="{B1553B7D-FD6F-437B-9008-0F95755F711B}"/>
+						<State Name="Market" ID="{90E08615-B95A-4D38-A0E3-A8535AB1AAC2}"/>
+						<State Name="Arena" ID="{C24CB928-8F01-4C22-9532-79F44E057FFD}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
