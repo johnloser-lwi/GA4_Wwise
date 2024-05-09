@@ -13,6 +13,10 @@
 							<ObjectRef Name="Ambience_End" ID="{E9137075-429A-4E47-AF42-B7DD58C35F22}" WorkUnitID="{FB6D43BA-A095-4ED4-B67B-D55603BB32B6}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="MultiStageActions" ID="{ADBF3484-90AA-474F-A263-74A501EFD7B8}" WorkUnitID="{1025414B-7560-4BFF-B869-81176C667BB0}"/>
+							<Position X="2" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
