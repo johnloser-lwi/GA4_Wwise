@@ -24,6 +24,63 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Hit" ID="{A0E888FC-B024-426F-95D5-676231DF2A16}">
+					<ChildrenList>
+						<Action Name="" ID="{A134025B-5EB5-46FD-9059-9A1ED8C42231}" ShortID="420150629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AttackCombo" ID="{A33DF544-3634-4BA4-A253-D0FDF9B234EB}" WorkUnitID="{AB88855C-1FFD-45AA-B0B1-859D3A0E0EC8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EE710F82-5BDF-4809-B26A-01725F30606A}" ShortID="481901760">
+							<PropertyList>
+								<Property Name="AbsoluteOrRelative" Type="int16" Value="1"/>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AttackComboCount" ID="{77A47914-9A2C-4E3F-A55B-E72150AD1B52}" WorkUnitID="{E1A7804B-332B-4CC5-BA9C-B53F7EE4825C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Idle" ID="{081FAE2D-4DD4-40C3-9257-1AA5E7C8FB88}">
+					<ChildrenList>
+						<Action Name="" ID="{B9D710B4-AA9B-403A-BB54-CAECFA912618}" ShortID="120298889">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AttackCombo" ID="{A33DF544-3634-4BA4-A253-D0FDF9B234EB}" WorkUnitID="{AB88855C-1FFD-45AA-B0B1-859D3A0E0EC8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BD571C8A-642D-4ADA-A00E-7C26434CAD51}" ShortID="1016216984">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MultiStageActions" ID="{ACFE0110-A06A-4C3F-B522-7DD96CE59764}" WorkUnitID="{F16DA749-30C5-4EA7-8018-295D165D88D7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A4417AB9-8ECA-47D2-BAAA-F2AC8B2DF7A9}" ShortID="580892683">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AttackComboCount" ID="{77A47914-9A2C-4E3F-A55B-E72150AD1B52}" WorkUnitID="{E1A7804B-332B-4CC5-BA9C-B53F7EE4825C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

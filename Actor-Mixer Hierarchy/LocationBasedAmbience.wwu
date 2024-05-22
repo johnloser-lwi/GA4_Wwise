@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0CF16F48-FFDE-4AF3-BEF3-6E70C85EF3C3}" SchemaVersion="119">
 	<AudioObjects>
-		<WorkUnit Name="Ambience" ID="{0CF16F48-FFDE-4AF3-BEF3-6E70C85EF3C3}" PersistMode="Standalone">
+		<WorkUnit Name="LocationBasedAmbience" ID="{0CF16F48-FFDE-4AF3-BEF3-6E70C85EF3C3}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="Ambience" ID="{AA0FD796-D5E7-45E1-AE28-ED91884A4C81}" ShortID="707687612">
 					<PropertyList>

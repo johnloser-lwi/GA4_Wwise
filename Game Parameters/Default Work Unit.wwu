@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E1A7804B-332B-4CC5-BA9C-B53F7EE4825C}" SchemaVersion="119">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{E1A7804B-332B-4CC5-BA9C-B53F7EE4825C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E1A7804B-332B-4CC5-BA9C-B53F7EE4825C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AttackComboCount" ID="{77A47914-9A2C-4E3F-A55B-E72150AD1B52}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

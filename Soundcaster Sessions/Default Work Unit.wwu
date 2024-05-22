@@ -18,7 +18,12 @@
 							<Position X="2" Y="1"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="AttackComboCount" ID="{77A47914-9A2C-4E3F-A55B-E72150AD1B52}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{05FF0A95-DA7E-4E50-AD5C-85E0FA1AF789}"/>
 					</CurrentStateList>
